@@ -1,6 +1,8 @@
 import QtQuick 2.11
 import QtQuick.Controls 2.4
 
+import com.mycompany.qmlcomponents 1.0
+
 ApplicationWindow {
     visible: true
     width: 640
@@ -13,6 +15,11 @@ ApplicationWindow {
         currentIndex: tabBar.currentIndex
 
         Page1Form {
+
+            MyItem {
+              Component.onCompleted: console.log(foo())
+            }
+
         }
 
         Page2Form {

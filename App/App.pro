@@ -18,7 +18,7 @@ SOURCES += \
 RESOURCES += qml.qrc
 
 # Additional import path used to resolve QML modules in Qt Creator's code model
-QML_IMPORT_PATH =
+QML_IMPORT_PATH = $$PWD/../build-Extension-Android_for_armeabi_v7a_GCC_4_9_Qt_5_11_1_for_Android_armv72-Debug/android-build/Users/rene/Code/Qt/5.11.1/android_armv7/qml/com/mycompany/qmlcomponents
 
 # Additional import path used to resolve QML modules just for Qt Quick Designer
 QML_DESIGNER_IMPORT_PATH =
