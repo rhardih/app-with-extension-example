@@ -11,6 +11,8 @@ class MyItem : public QQuickItem
 public:
     MyItem(QQuickItem *parent = nullptr);
     ~MyItem();
+
+    Q_INVOKABLE QString foo() { return "bar"; }
 };
 
 #endif // MYITEM_H
